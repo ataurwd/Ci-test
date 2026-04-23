@@ -3,7 +3,7 @@ import { useState } from "react";
 const initialTasks = [
   {
     id: 1,
-    title: "Design landing page",
+    title: "Design and Development the add",
     description: "Create wireframes and mockups for the new landing page",
     priority: "high",
     status: "todo",
@@ -88,7 +88,7 @@ function App() {
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-gray-800">Task Management</h1>
+          <h1 className="text-2xl font-bold text-gray-800">Task Management <span className="text-blue-300">System</span></h1>
           <button
             onClick={() => setShowModal(true)}
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors"
